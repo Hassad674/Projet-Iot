@@ -1,0 +1,27 @@
+/*!*********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].oneOf[1].use[1]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[4].oneOf[1].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].oneOf[1].use[3]!./assets/styles/dashboard.scss ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************/
+@charset "UTF-8";
+/* /////////////////////////STYLE.CSS/////////////////////////// */
+.second-section {
+  background-color: #f4ead3; /* Remplacez cette couleur par celle que vous préférez */
+}
+
+body, html, main {
+  background-color: #f4ead3; /* Couleur souhaitée */
+}
+
+.bg-custom {
+  background-color: #f4ead3; /* Changez cette valeur hexadécimale pour la couleur désirée */
+}
+
+.bg-custom {
+  background: linear-gradient(to bottom, #f4ead3 0%, #f4ead3 90%, #DEB887 100%);
+}
+
+#couleur {
+  background: linear-gradient(to bottom, #DEB887 0%, #DEB887 80%, #f4ead3 100%);
+  width: 100%;
+}
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiZGFzaGJvYXJkLmNzcyIsIm1hcHBpbmdzIjoiOzs7QUFBQSxnQkFBZ0I7QUFHaEI7QUFLQTtFQUNJO0FBTEo7O0FBU0U7RUFDRTtBQU5KOztBQVVFO0VBQ0U7QUFQSjs7QUFXRTtFQUNFO0FBUko7O0FBWUU7RUFDRTtFQUNBO0FBVEosQyIsInNvdXJjZXMiOlsid2VicGFjazovLy8uL2Fzc2V0cy9zdHlsZXMvZGFzaGJvYXJkLnNjc3MiXSwic291cmNlc0NvbnRlbnQiOlsiXG5cblxuLyogLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vL1NUWUxFLkNTUy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLyAqL1xuXG5cblxuXG4uc2Vjb25kLXNlY3Rpb24ge1xuICAgIGJhY2tncm91bmQtY29sb3I6ICNmNGVhZDM7IC8qIFJlbXBsYWNleiBjZXR0ZSBjb3VsZXVyIHBhciBjZWxsZSBxdWUgdm91cyBwcsOpZsOpcmV6ICovXG4gIH1cbiAgXG4gIFxuICBib2R5LCBodG1sLCBtYWluIHtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjZjRlYWQzOyAvKiBDb3VsZXVyIHNvdWhhaXTDqWUgKi9cbiAgfVxuICBcbiAgXG4gIC5iZy1jdXN0b20ge1xuICAgIGJhY2tncm91bmQtY29sb3I6ICNmNGVhZDM7IC8qIENoYW5nZXogY2V0dGUgdmFsZXVyIGhleGFkw6ljaW1hbGUgcG91ciBsYSBjb3VsZXVyIGTDqXNpcsOpZSAqL1xuICB9XG4gIFxuICBcbiAgLmJnLWN1c3RvbSB7XG4gICAgYmFja2dyb3VuZDogbGluZWFyLWdyYWRpZW50KHRvIGJvdHRvbSwgI2Y0ZWFkMyAwJSwgI2Y0ZWFkMyA5MCUsICNERUI4ODcgMTAwJSk7XG4gIH1cbiAgXG4gIFxuICAjY291bGV1ciB7XG4gICAgYmFja2dyb3VuZDogbGluZWFyLWdyYWRpZW50KHRvIGJvdHRvbSwgI0RFQjg4NyAwJSwgI0RFQjg4NyA4MCUsICNmNGVhZDMgMTAwJSk7XG4gICAgd2lkdGg6IDEwMCU7XG4gIH1cbiAgXG4gIFxuICBcbiAgXG4gIFxuICBcbiAgXG4gICJdLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIifQ==*/

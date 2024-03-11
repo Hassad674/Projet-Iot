@@ -1,0 +1,17 @@
+#customBadge {
+    font-size: larger;
+    background-color: #DEB887 !important; /* Bleu clair, avec !important pour forcer la priorité */
+  
+  }
+  
+  
+  
+  @media (min-width: 992px) { /* Ajustement pour les grands écrans */
+    #customBadge {
+      position: absolute;
+      top: -60px; /* Ajuste la position verticale */
+      left: 0; /* Ajuste la position horizontale, peut nécessiter un ajustement basé sur la maquette */
+      transform: translate(0, -50%);
+    }
+  }
+  

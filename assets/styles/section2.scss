@@ -1,0 +1,59 @@
+@media (min-width: 768px) {
+    #droite {
+      margin-top: -200px; /* Ajuste le contenu vers le haut */
+    }
+  }
+  
+  /* Augmenter la taille du texte pour les paragraphes spécifiques */
+  .text-center.text-md-start strong {
+    font-size: 1.5em; /* Augmente la taille du texte de 50% par rapport à la taille héritée */
+  }
+  
+  
+  
+  
+  
+  @media (max-width: 768px) {
+    #droite ul li {
+      padding: 5px 0; /* Ajuste l'espacement vertical des éléments de liste pour les petits écrans */
+    }
+  }
+  
+  #droite p {
+    text-align: left; /* Assure que le texte est aligné à gauche même dans un alignement central */
+  }
+  
+  @media (max-width: 768px) {
+    #droite {
+      /* Ajustements spécifiques pour les tablettes si nécessaire */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    #droite {
+      /* Ajustements spécifiques pour les mobiles si nécessaire */
+    }
+  }
+  
+  
+  
+  
+  
+  #monElement .icon-baby {
+    color: #FFB6C1; /* Couleur rose pâle pour l'icône bébé */
+  }
+  
+  #monElement .icon-video {
+    color: #6A5ACD; /* Couleur bleu ardoise pour l'icône vidéo */
+  }
+  
+  #monElement .icon-wifi {
+    color: #00CED1; /* Couleur turquoise pour l'icône wifi */
+  }
+  
+  #monElement .icon-sleep {
+    color: #98FB98; /* Couleur vert pâle pour l'icône sommeil */
+  }
+  
+  
+  

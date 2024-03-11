@@ -1,0 +1,111 @@
+{% extends 'base.html.twig' %}
+
+{% block stylesheets %}
+    {{ parent() }}
+    {{ encore_entry_link_tags('dashboard') }} <!-- Spécifique à cette page -->
+
+    
+{% endblock %}
+
+{% block title %}BabyGuardian{% endblock %}
+
+{% block body %}
+<main>
+      <!-- Example Code -->
+      
+
+    
+    
+    <section id="couleur" class="bg-warning">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6 py-5 px-3 px-sm-4 px-md-5">
+            <h1>Caméra de surveillance pour bébé</h1>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Praesentium fugit nobis similique in, eaque ut eos dolor architecto
+              aut voluptate totam voluptatibus illo, aliquam minima nulla soluta!
+              Dolores, beatae asperiores.
+            </p>
+          </div>
+          <div class="col-md-6 py-5 px-3 px-sm-4 px-md-5">
+            <img src="./51AGTF-HewL._AC_UF1000_1000_QL80_-removebg-preview.png" class="img-fluid" alt="imageCamera">
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+    <section class="second-section">
+        <div id="gauche">
+          <div class="container mt-5">
+            <div class="row">
+              <div class="col position-relative"> <!-- Ajout de position-relative ici -->
+                <div class="d-flex justify-content-center justify-content-lg-start">
+                  <div class="badge rounded-pill bg-light border border-dark px-4 py-3" id="customBadge">
+                    <p class="mb-0">Protégez votre <br /> bébé</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          
+        
+          <div class="d-flex flex-column align-items-center align-items-lg-start custom-button-container">
+            <button class="btn custom-btn surveiller my-2">Surveiller votre bébé</button>
+            <button class="btn custom-btn acces-videos my-2">Accéder aux vidéos</button>
+          </div>
+          
+<br>
+<br>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-12 col-md-8 offset-md-4 col-lg-6 offset-lg-6 col-xl-4 offset-xl-8" id="droite">
+      <p class="text-center text-md-start"><strong>Avec notre caméra vous pouvez:</strong></p>
+      <ul class="list-unstyled text-center text-md-start">
+        <li><i class="fas fa-baby-carriage"></i> Surveiller votre enfant</li>
+        <li><i class="fas fa-video"></i> Regarder les anciennes vidéos</li>
+        <li><i class="fas fa-wifi"></i> Le voir même à distance</li>
+        <li><i class="fas fa-bed"></i> Voir s'il dort bien</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+        
+        
+      
+      </section>
+    </main>
+
+
+    <script>
+      // S'assure que le script s'exécute après le chargement complet de la page
+      document.addEventListener("DOMContentLoaded", function() {
+          // Sélectionnez le bouton de basculement de la navbar
+          var navbarToggler = document.querySelector('.navbar-toggler');
+          // Sélectionnez l'élément à modifier
+          var bgCustom = document.querySelector('.bg-custom');
+      
+          navbarToggler.addEventListener('click', function() {
+              // Attendre un court délai pour laisser le temps à Bootstrap de changer l'état
+              setTimeout(function() {
+                  var isExpanded = navbarToggler.getAttribute('aria-expanded') === 'true';
+                  if (isExpanded) {
+                      // Si le menu est ouvert, modifiez le style
+                      bgCustom.style.background = 'none';
+                  } else {
+                      // Si le menu est fermé, rétablissez le style
+                      bgCustom.style.background = 'linear-gradient(to bottom, #f4ead3 0%, #f4ead3 90%, #DEB887 100%)';
+                  }
+              }, 10); // Le délai peut être ajusté si nécessaire
+          });
+      });
+      </script>
+
+{% endblock %}
+
+

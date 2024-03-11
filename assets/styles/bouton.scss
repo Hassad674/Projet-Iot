@@ -1,0 +1,57 @@
+.custom-btn {
+  padding: 15px 120px; /* Padding initial */
+  background-color: #DEB887; /* Couleur de fond pour les deux boutons */
+  border: 2px solid #000000; /* Bordure */
+  border-radius: 50px; /* Bords arrondis */
+  cursor: pointer;
+  transition: all 0.3s ease; /* Transition douce */
+  color: #ffffff; /* Couleur de la police en blanc */
+  font-size: 150%; /* Augmenter la taille de la police de 50% */
+  font-weight: bold; /* Ajout pour rendre le texte en gras */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.custom-button-container {
+  margin-left: 161px; /* Pour les grands écrans */
+  margin-top: 20px; /* Espacement par rapport à l'élément au-dessus */
+}
+
+/* Hover et focus state pour les boutons */
+.custom-btn:hover, .custom-btn:focus {
+  background-color: #eee; /* Changement de couleur au survol */
+  box-shadow: 0 5px 15px rgba(202, 145, 105, 0.873); /* Effet d'ombre */
+  transform: translateY(-2px); /* Légère élévation */
+  color: #000000; /* Changement de la couleur de texte au survol si nécessaire */
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) { /* Point de rupture pour les écrans LG de Bootstrap */
+  .custom-button-container {
+    margin-left: 0; /* Centrage des boutons sur les écrans moyens */
+    text-align: center;
+  }
+  .custom-btn {
+    padding: 10px 20px; /* Padding ajusté pour les écrans plus petits */
+  }
+}
+
+@media (max-width: 768px) { /* Point de rupture pour les écrans MD de Bootstrap */
+  /* Ajustements supplémentaires si nécessaire */
+}
+
+@media (max-width: 576px) { /* Point de rupture pour les écrans SM de Bootstrap */
+  /* Ajustements supplémentaires si nécessaire */
+}
+
+
+
